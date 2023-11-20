@@ -1,0 +1,105 @@
+<?php
+$link=mysqli_connect('localhost','root','','shopping');
+error_reporting(0);
+$id=$_GET['id'];
+$product=$_GET['product'];
+$price=$_GET['price'];
+$description=$_GET['description'];
+$catagory=$_GET['catagory'];
+$files=$_GET['files'];
+?>
+<html>
+<head>
+<title>
+</title>
+
+<style>
+table
+{
+	color:white;
+	border-radius:20px
+} 	
+
+#button
+{
+	background-color:green;
+	color:white;
+	height:32px;
+	width:125px;
+	border-radius:25px 
+	font-size:16px;
+}
+
+body
+{
+	background:linear-gradient(red,blue);
+}
+</style>
+
+</head>
+
+<body>
+<br><br><br><br><br><br><br>
+
+<form action="" method="GET">
+<table border="0" bgcolor="black" align="center" cellspacing="20">
+
+
+<tr>
+<td>ID</td>
+<td><input type="text" value="<?php echo "$id" ?>" name="id" cellspacing="20" required></td></tr>
+
+
+<tr>
+<td>product name</td>
+<td><input type="text" value="<?php echo "$product" ?>" name="product" cellspacing="20" required></td></tr>
+
+<tr>
+<td>email</td>
+<td><input type="price" value="<?php echo "$price" ?>" name="price" cellspacing="20" required></td></tr>
+
+<tr>
+<td>category</td>
+<td><input type="text" value="<?php echo "$description" ?>" name="description" cellspacing="20" required></td></tr>
+
+<tr>
+<td>years of experience</td>
+<td><input type="text" value="<?php echo "$catagory" ?>" name="catagory" cellspacing="20" required></td> </tr>
+
+<tr>
+<td colspan="2" align="center"><input type="submit" id="button" name="submit" value="update"></td></tr>
+<tr>
+<a href="pdt_handler.php">
+<td colspan="2" align="center"><input type="submit" id="button" value="cancel"></td></a></tr>
+</form>
+</table>
+</body>
+</html>
+
+<?php
+
+if($_GET['submit'])
+{
+	$id = $_GET['id'];
+	$product = $_GET['product'];
+	$price = $_GET['price'];
+	$description = $_GET['description'];
+	$catagory = $_GET['catagory'];
+	$query = "UPDATE producttable SET  product='$product',price='$price',description='$decsription',category='$catagory' WHERE id='$id'";
+$data = mysqli_query($link,$query); 
+
+if($data)
+{
+     echo "<script> alert('Record Updated');
+		window.location.href='producthandler.php';
+		</script>";
+		?>
+		 <meta charset="UTF-8">
+		<?php
+} 
+else
+{
+	echo ("Failed to Update Record"); 	
+}
+}
+?>

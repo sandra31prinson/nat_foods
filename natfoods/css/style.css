@@ -1,0 +1,1180 @@
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	box-sizing:border-box;
+	text-align:center;	
+	}
+h1, h3{
+	font-family: 'Raleway', sans-serif;
+	 font-weight:bold;
+	 text-align: left;
+	}
+p{
+	font-family: 'Open Sans', sans-serif;	
+	font-size:15px;
+}
+span{
+	font-weight:bold;
+	color:#dc3545;
+	}
+
+.topbot{
+	padding-top:50px;
+	padding-bottom:100px;
+	}
+a{
+	color:white;
+	}
+a:hover{
+	text-decoration:none;
+	}
+#headertop{
+	padding:15px 0;
+	}
+
+.search-bar input{
+	border:none;
+	border-radius:0;
+	}
+.search-bar button{
+	border:none;
+	border-radius:0;
+	}
+.usersicons i{
+	display:inline;
+	float:right;
+	color:white;
+	padding: 10px 13px;;
+	}
+.usersicons i:hover{
+	color:	#8E44AD;
+	font-weight:bold;
+	transition:0.1s;
+	border-radius:5px;
+	background-color:white;
+	transition-timing-function:ease-in-out;
+	}
+.carousel-caption{
+	width:500px;
+	padding-bottom:240px;
+	z-index:0;
+	}
+.carousel-caption p{
+	text-align:justify;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	}
+.carousel-caption h3{
+	font-weight:500;
+	text-align:left;	
+	}
+.carousel-caption a{
+	text-decoration:none;
+	color:rgba(255,255,255,1.00);
+	}
+.carousel-caption a{
+	float:left;
+	}
+
+.testbutt{
+	position:relative;
+	}
+.testbutt a{
+	position:absolute;
+	bottom:0;
+	right:15%;
+	}
+.testbutt a:hover{
+	background-color:#dc3545;
+	border:none;
+	}
+.carousel-caption a:hover{
+	background-color:rgba(47,148,231,1.00);
+	}
+#bannerdes{
+	position:absolute;
+	top:40%;
+	left:15%;
+	color:rgba(0,0,0,1.00);
+}
+#menufull{
+	position:relative;
+	}
+#menubar{
+	color:black;
+	font-size:25px;
+	line-height:50px;
+	float:left ;
+	padding:0;
+	}
+#menubar i{
+	position:absolute;
+	padding:8px 15px;
+	}
+#menubar i:hover{
+	color: #8E44AD;
+	transition:0.1s;
+	transition-timing-function:ease-in-out;
+	padding-top:0;
+	padding-bottom:0;
+	font-size:32px;
+	}
+	
+/*best selling products*/
+	
+	
+	/*modal*/
+	
+	
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1500; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.welcomemodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1500; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.welcome-content{
+	background-color: transparent;
+	}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.locationmodal{
+	width:50%;
+	height:100%;
+	}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+	
+.welcomebody a{
+	position:absolute;
+	top:5px;
+	right:5px;
+	}
+
+#locationmodal i{
+	background-color:transparent;
+
+	}
+
+
+/*    */
+
+
+
+.des {
+  padding: 2px 16px;
+ 
+}
+.des h5{
+	padding:5px 0;
+	color: #000;
+	
+	}	
+.des a{
+	margin-bottom: 15px;;
+}
+.des strong{
+	font-size: 20px;;
+}
+.sub p{
+	font-size:14px;
+	padding:5px 0;
+	color:#ffffff;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing:1px;
+	}
+/*pros section */
+
+.pros-icon img{
+	width:150px;
+	padding:20px;
+	border-radius:50%;
+	background-color:#dc3545;
+	border:2px solid #fff;
+	}
+.pros-icon img:hover{
+	border:15px solid white;
+	transition:0.2s;
+	transition-timing-function:ease-in-out;
+	
+	}
+.cata{
+	
+	width:100%;
+	margin:0 auto;
+	}
+.cata h6{
+	line-height:30px;
+	margin:0;
+	}
+.cata a{
+	color:rgba(0,0,0,1.00);
+	font-size:15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	}
+.cata:hover{
+	background-color:#007bff;
+	transition:0.1s;
+	transition-timing-function:ease-in-out;
+	}
+.cata:hover a{
+	color: white;
+	text-decoration:none;
+	transition:0.2s;
+	transition-timing-function:ease-in-out;
+	}
+
+.more a{
+	float:right;	
+    margin-right:15px;
+	font-family: 'Poppins', sans-serif;
+	border:none;
+	}
+.more a:hover{
+	background-color:#ffffff;
+	color:#dc3545;
+	text-decoration:none;
+	font-weight:bold;
+	}
+
+
+	
+
+/*footer*/
+	
+
+.topbot{
+	padding-top:50px;
+	padding-bottom:80px;
+	}
+
+.footlogo{
+	float:left;
+	text-align:left;
+	padding:10px;
+	background-color:rgba(158,158,158,0.2);
+	height:100%;
+	}
+ul{
+	padding:0;
+	}
+li{
+	list-style-type:none;
+	
+	}
+.links a{
+	text-decoration:none;
+	color:#FFFFFF;
+	
+	}
+.links a:hover{
+	color:rgba(137,74,237,1.00);
+	}
+
+.contacts p{
+	font-size:15px;
+	color:rgba(219,219,219,1.00);
+	}
+	
+.last-footer{
+	background-color:rgba(26,26,26,1.00);
+	}
+.last-footer p{
+	padding:10px;
+	font-size:14px;
+	margin:0;
+	}
+.social-icons a{
+	color:white;
+	}	
+.social-icons i{
+	display:inline;
+	float:right;
+	padding: 10px 13px;;
+	}
+
+.social-icons i:hover{
+	color:	#8E44AD;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	}
+
+
+
+
+/*toggle*/
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:aliceblue;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  margin:15px 5px;
+  line-height:50px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+  text-align:center;
+}
+
+.sidenav a:hover {
+  color:rgba(207,205,205,1.00);
+  background-color:rgba(0,0,0,1.00);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  width:50px;
+}
+.sidenav h4{
+	position:absolute;
+	top:27px;
+	right:80px;
+	}
+.sidenav h6{
+	font-family: 'Poppins', sans-serif;
+	}
+
+.toggle{
+	display:none;
+	z-index:500;
+	}
+.toggle span{
+	float:left; 
+	font-size:30px; 
+	color:white;; 
+	cursor:pointer; 
+	line-height:35px;
+	} 
+
+/**/
+	
+	.back{
+	background-image:url(../imgs/back-img3.jpg);
+	background-repeat:nono-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	}
+
+ .card {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+	 margin:15px;
+     min-width: 0;
+     word-wrap: break-word;
+	 text-align:left;
+     background-clip: border-box;
+     color:black;
+	 box-shadow: 0 4px 20px 0 rgba(0,0,0,0.5);
+	 transition: 0.3s;
+	 border:none;
+ }
+.card-body{
+	height:150px;
+	
+	}
+.card-content{
+	position:relative;
+	height:100px;
+	}
+.card-content p{
+	margin:0;
+	position:absolute;
+	bottom:0;
+	left:11%;
+	}
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+	}
+		  
+	
+/*login*/
+	
+	
+.clippy{
+   	height:400px;
+	width:80%;
+	box-shadow: 10px 10px 25px #aaaaaa;
+	padding:20px;
+	display:block;
+	margin:0 auto;
+	border-radius:5px;
+	border-bottom:10px solid rgba(255,255,255,0.7);
+	}
+.login-message{
+	font-weight:500;
+	float:left;
+	color:red;
+	}
+
+	
+
+.toppadd form{
+	width:40%;
+	display:block;
+	margin:0 auto;
+	}
+.login p{
+	font-size:13px;
+	font-family: 'Raleway', sans-serif;
+	}
+.login a{
+	text-decoration:none;
+	font-size:16px;
+	font-weight:500;
+	color:rgba(0,0,0,1.00);
+	font-family: 'Raleway', sans-serif;
+	}
+.login a:hover{
+	
+	color:rgba(0, 123, 253, 1.00)
+	}
+	
+	
+	
+	
+/*signup*/
+
+.signupform{
+	width:50%;	
+	box-shadow: 10px 10px 25px #aaaaaa;
+	border-radius:10px;
+	
+	}
+
+.form-group p{
+		font-weight:500;
+		padding:5px;
+		margin:0;
+		float:left;
+		color:red;
+		}
+
+/*footer*/
+
+.topbot{
+	padding-top:50px;
+	padding-bottom:100px;
+	}
+
+.footlogo{
+	float:left;
+	text-align:left;
+	padding:10px;
+	background-color:rgba(158,158,158,0.2);
+	height:100%;
+	}
+ul{
+	padding:0;
+	}
+li{
+	list-style-type:none;
+	
+	}
+.links a{
+	text-decoration:none;
+	color:#FFFFFF;
+	
+	}
+.links a:hover{
+	color:rgba(137,74,237,1.00);
+	}
+
+.contacts p{
+	font-size:15px;
+	color:rgba(219,219,219,1.00);
+	}
+	
+.last-footer{
+	background-color:rgba(26,26,26,1.00);
+	}
+.last-footer p{
+	padding:10px;
+	font-size:14px;
+	margin:0;
+	}
+	
+.social-icons i:hover{
+	color:	#8E44AD;
+	}
+
+
+	
+	
+	
+	/*product page*/
+	
+	
+
+/* Position the image container (needed to position the left and right arrows) */
+.cont {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.cart-buy{
+	width:100%;
+	height:auto;
+	border-radius:0;
+	border:none;
+	color:white;
+	}
+
+.productpadd{
+	padding:100px 0;
+	}
+.addcart a{
+	background-color:#FF4500;
+}
+.addcart a:hover{
+	background-color:#28a745;
+	color:white;
+	transition:0.2s;
+	transition-timing-function:ease-in-out;	
+	}
+
+	
+	
+/*help*/
+	
+	
+.help-sendbutton:hover
+	{
+	background-color: #007bff;
+	}
+.description p
+	{
+	font-family: 'Open Sans', sans-serif;	
+	font-size:14px;
+	text-align:justify;
+	}
+.help h3
+	{
+	padding-left:28px;
+	}
+
+
+/*about page*/
+	
+	.about-back{
+		background-image: url(../imgs/LOGO.png);
+		background-attachment:fixed;
+		background-position:left;
+		
+		}
+	
+	
+	
+	
+	/*cart page*/
+	
+
+.icon{
+	height:500px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position:relative;
+}
+.icon i{
+	font-size:100px;
+}
+.sad p{
+	position:absolute;
+	font-size:21px;
+	left:514px;
+	top:60%;
+	
+	font-weight:500;
+	}
+.sad i{
+	font-size:20px;
+	
+	}
+.empty-more{
+	position:absolute;
+	top:68%;
+	}
+	
+.empty-cart{
+	display:none;
+	}
+.background{
+	padding:50px 58px 50px 50px;
+	border-radius:10px;
+	box-shadow: 5px 5px 15px #aaaaaa;
+	}
+.cart-items{
+	padding: 15px;
+	margin-bottom: 15px;
+	border:1px solid #6c757d;
+	}
+
+.shopmore button{
+
+	display:block;
+	margin:25px auto;
+	}
+.shopmore a{
+	color:white;
+	text-decoration:none;
+	}
+.shopmore button:hover{
+	background-color: #007bff;
+	}
+	
+	
+	
+/*order placed*/		
+.symbol
+{
+	padding:270px 0;
+	display:block;
+	align-items:center;
+	
+	
+}
+.symbol i
+{
+	font-size:100px;	
+	}
+	
+/*add catagory*/
+
+
+.addcatagory{
+	padding-top:100px;
+	}	
+.addcatagory form{		
+	width:50%; 
+	height:200px; 
+	margin:0 auto; 
+	box-shadow: 10px 10px 20px grey; 
+	padding:15px;
+	border-radius:10px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+/*media query*/	
+
+
+@media(max-width:325px){
+	
+	.carousel-caption{
+		padding-bottom:10px;
+	}
+	
+	.carousel-caption h3{
+		font-size:20px;
+	}
+	.carousel-caption p{
+		display:none;
+	}
+	.usersicons{
+		position:absolute;
+		top:15px;
+		right:0;
+	}
+	.usersicons i{
+		padding:10px 15px;
+	}
+	.logo{
+		padding-bottom:15px;
+		}
+	.logo img{
+		float:left;
+		
+		}
+	.catagory{
+		display:none;
+		}
+	.toggle{
+		z-index:1;
+		display:block;
+	}
+	.productpadd{
+		padding:15px 0;
+		}
+    h3{
+		text-align: center;
+	}
+	.more button{
+		float:none;	
+		margin:0 auto;
+		display: block;
+	}
+	.social-icons{
+		float: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.card-body{
+		height:200px;
+	}
+	.modal-content {
+		width:100%;
+		height:400px;
+	}
+	.card-content{
+		height:80px;
+		}
+	.card-content p{
+		bottom:0;
+		left:11%;
+	}
+	.testbutt a{
+		bottom:0;
+		right:7%;
+	}
+	.addcatagory form{
+		width:100%;
+		}
+	.addcatagory h3{
+		font-size:16px;
+		}
+	.signupform{
+		width:100%;	
+	}
+	.help h3
+	{
+		padding-left:0;
+	}
+	
+}
+
+@media (min-width:326px) and (max-width: 575px){
+	.usersicons{
+		position:absolute;
+		top:18px;
+		right:35px;
+		
+	}
+	.usersicons i{
+		padding:10px 20px;
+	}
+	.logo{
+		padding-bottom:15px;
+		}
+	.logo img{
+		float:left;
+		
+		}
+	.catagory{
+		display:none;
+		}
+	.modalloc{
+		padding-top:10px
+		}
+	.toggle{
+		display:block;
+	}
+	.toggle span{
+		float:right;
+		}
+	.carousel-caption h3{
+		font-size:22px;
+	}
+	.carousel-caption p{
+		display:none;
+		
+		}
+	.carousel-caption{
+		padding-bottom:0px;
+		width:60%;
+	
+	}
+	.topbot h3{
+		padding-left:15px;
+		font-weight:bold;	
+		}
+	.modal-content {
+		width:100%;
+		height:300px;
+		}
+
+	.description{
+		text-align:justify;
+		}
+	.contacts i{
+		padding:0 15px;
+		}
+	.productpadd{
+		padding:25px 0;
+		}
+	 h3{
+		text-align: center;
+		}
+	.more button{
+		float:none;	
+		margin:0 auto;
+		display: block;
+		}
+	.social-icons{
+		float: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}
+	.modal-content {
+		width:80%;
+		height:300px;
+		}	
+	.modal{
+		padding-top:0px;
+		}
+	.addcatagory form{
+		width:100%;
+		}
+	.signupform{
+		width:90%;	
+	}
+	.help h3
+	{
+		padding-left:0;
+	}
+		
+		
+}
+
+@media (min-width: 576px) and (max-width:767px){
+	.usersicons{
+		display:flex;
+		position:absolute;
+		top:15px;
+		right:0;
+	}
+	.usersicons i{
+		padding:10px 25px;
+	}
+	.logo{
+		padding-bottom:15px;
+		}
+	.logo img{
+		float:left;
+		
+		}
+	.catagory{
+		display:none;
+		}
+	.toggle{
+		display:block;
+	}
+	.carousel-caption h3{
+		font-size:22px;
+	}
+	.carousel-caption p{
+		font-size:13px;
+		}
+	.carousel-caption{
+		padding-bottom:115px;
+	
+	}
+	.modal-content {
+		width:100%;
+		height:300px;
+		}
+	.modalloc{
+		width:100%;
+		padding-top:20px;;
+		}
+	.modal{
+		padding-top:30px;
+		}
+	.contacts i{
+		padding:0 15px;
+		}
+	.more button{
+			float:none;	
+			margin:0 auto;
+			display: block;
+		}
+	.social-icons{
+			float: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	
+	.modal-content {
+		width:100%;
+		height:300px;
+		}		
+
+	.productpadd{
+		padding:15px 0;
+		}
+		
+	.addcatagory form{
+		width:100%;
+		}
+	.signupform{
+		width:80%;	
+	}	
+		
+	
+
+}	
+
+
+
+@media (min-width: 768px) and (max-width:991px){
+	.catagory{
+		display:none;
+		}
+	.usersicons{
+		display:flex;
+		position:absolute;
+		top:15px;
+		right:0px;;
+	}
+	.logo img{
+		float:left;
+	}
+	.logo{
+		padding-bottom:15px;
+	}
+	.usersicons i{
+		padding:10px 25px;
+	}
+	.toggle{
+		display:block;
+	}
+	.carousel-caption h3{
+		font-size:22px;
+	}
+	.carousel-caption p{
+		font-size:13px;
+		}
+	.carousel-caption{
+		padding-bottom:150px;
+	
+	}
+	.modal-content {
+		width:100%;
+		height:300px;
+		}
+	.modalloc{
+		width:100%;
+		padding-top:20px;;
+		}
+	.modal{
+		padding-top:25px;
+		}
+	.contacts i{
+		padding:0 15px;
+		}
+	.more button{
+		float:none;	
+		margin:0 auto;
+		display: block;
+		}
+	.social-icons{
+		float: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}	
+	.modal-content {
+		width:100%;
+		height:300px;
+		}
+	.productpadd{
+		padding:15px 0;
+		}
+	.addcatagory form{
+		width:100%;
+		}
+	.signupform{
+		width:70%;	
+	}
+		
+	
+		
+		
+}
+
+
+@media (min-width: 992px) and (max-width:1199px){
+	.logo img{
+		float:left;
+	}
+	.logo{
+		padding-bottom:15px;
+	}
+	.usersicons{
+		position:absolute;
+		top:15px;
+		right:60px;
+	}
+	.usersicons i{
+		padding:10px 25px;
+	}
+	.carousel-caption{
+		padding-bottom:200px;
+	
+	}
+	.modal-content {
+		width:70%;
+		height:300px;
+		}
+	.modalloc{
+		padding-top:20px;;
+		}
+	.modal-content {
+		width:100%;
+		}
+
+	.productpadd{
+		padding:15px 0;
+		}
+
+	
+
+
+}
+
+
